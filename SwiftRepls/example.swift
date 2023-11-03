@@ -7,6 +7,6 @@
 
 import Foundation
 
-func helloMaker(name: String) {
+func sayHello(to name: String) {
     print("Hello \(name)")
 }
