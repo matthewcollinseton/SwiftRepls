@@ -9,4 +9,10 @@ import Foundation
 
 var data = [4, 2, 7, 8, 3, 5, 1]
 print("Unsorted data: \(data)")
-print("Sorted data: \(quickSort(data: data))")
+
+let start = CFAbsoluteTimeGetCurrent()
+bubbleSort(data: &data)
+let diff = CFAbsoluteTimeGetCurrent() - start
+
+print("Sorted data: \(data)")
+print("Time taken: \(diff) seconds")
