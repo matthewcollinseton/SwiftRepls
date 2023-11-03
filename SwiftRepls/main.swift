@@ -15,4 +15,4 @@ bubbleSort(data: &data)
 let diff = CFAbsoluteTimeGetCurrent() - start
 
 print("Sorted data: \(data)")
-print("Time taken: \(diff) seconds")
+print("Time taken: \(diff) secs")
