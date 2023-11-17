@@ -8,14 +8,14 @@
 import Foundation
 
 class Algorithm {
-
-    func linearSearch(data: [Int]) -> Bool {
-        if data.count == 0 {
-            return false
+    
+    func linearSearch(data: [Int], target: Int) -> Bool {
+        for i in 0..<data.count {
+            if data[i] == target {
+                return true
+            }
         }
-        else {
-            return true
-        }
+        return false
     }
     
 }
